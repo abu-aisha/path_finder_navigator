@@ -193,8 +193,8 @@ def add_vehi():
         print("Error!!! This button can only be used after using the manual making of fleet option") 
 
 ##############<----------TRIP FUNCTIONS---------------------------->
-
-country_city_data = create_cities_countries_from_CSV("worldcities_truncated.csv",8)
+# worldcities.csv
+country_city_data = create_cities_countries_from_CSV("worldcities.csv",8)
 
 compl_dict= country_city_data[0]
 countries_list = country_city_data[1]
